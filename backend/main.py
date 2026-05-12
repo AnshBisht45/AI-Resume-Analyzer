@@ -64,7 +64,8 @@ async def upload_resume(file: UploadFile = File(...)):
         ats_score = 100
 
     return {
+        "ats_score": 99,
         "skills_found": found_skills,
-        "ats_score": ats_score,
-        "resume_text": text
+        "message": "LIVE BACKEND WORKING"
+}
     }
