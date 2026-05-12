@@ -68,4 +68,3 @@ async def upload_resume(file: UploadFile = File(...)):
         "skills_found": found_skills,
         "message": "LIVE BACKEND WORKING"
 }
-    }
